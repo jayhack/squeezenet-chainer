@@ -34,7 +34,7 @@ class SqueezeNet(chainer.Chain):
             fire8=Fire(384, 64, 256, 256),
             fire9=Fire(512, 64, 256, 256),
             conv10=L.Convolution2D(512, 1000, 1,
-                pad=1)#), #initialW=normal(0, 0.01, (1000, 512, 1, 1)))
+                pad=1)
         )
 
     def __call__(self, x, train=False):

@@ -2,7 +2,7 @@
 
 An implementation of [SqueezeNet](http://arxiv.org/abs/1602.07360) in [chainer](https://github.com/pfnet/chainer). 
 
-Shamelessly forked from [eljb's implementation](https://github.com/ejlb/squeezenet-chainer), with slight changes to layer sizes and support for pretrained weights added. (Weights included.)
+Shamelessly forked from [ejlb's implementation](https://github.com/ejlb/squeezenet-chainer), with slight changes to layer sizes and support for pretrained weights added. (Weights included.)
 
 Below are some benchmarks on a ImageNet-like dataset (1 million 255x255 images with 128 batch size)
 
