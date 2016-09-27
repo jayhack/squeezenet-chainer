@@ -38,3 +38,6 @@ Below are some benchmarks on a ImageNet-like dataset (1 million 255x255 images w
   model = SqueezeNet()
   serializer.load_npz('weights.npz', model)
   
+## Using in Practice
+* Inputs should be of shape (batch_size, 3, 227, 227)
+* It takes about 5.5 seconds to do a batch of 20 on my Macbook Pro
