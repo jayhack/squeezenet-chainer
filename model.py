@@ -27,7 +27,7 @@ class SqueezeNet(chainer.Chain):
             conv1=L.Convolution2D(3, 96, 7, stride=2),
             fire2=Fire(96, 16, 64, 64),
             fire3=Fire(128, 16, 64, 64),
-            fire4=Fire(128, 16, 128, 128),
+            fire4=Fire(128, 32, 128, 128),
             fire5=Fire(256, 32, 128, 128),
             fire6=Fire(256, 48, 192, 192),
             fire7=Fire(384, 48, 192, 192),
